@@ -1,0 +1,954 @@
+@font-face {
+  font-family: opensans;
+  src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: raleway-bold;
+  src: url(../font/raleway/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: raleway-regular;
+  src: url(../font/raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: opensanslight-italic;
+  src: url(../font/Open_Sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: opensans-bold;
+  src: url(../font/Open_Sans/OpenSans-Bold.ttf);}
+@font-face {
+    font-family: neutra-text;
+    src: url(../font/neutra-text/NeutraText-Bold.otf);
+}
+body {
+  background-image: url(../image/bg.png);
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  margin: 0px auto 0 auto;
+  display: flex;
+  border-bottom: 1px solid #b4b4b2;
+  align-items: center;
+  position: relative;
+}
+
+.phone {
+  color: #403f3d;
+  font-family: opensans,opensans-bold;
+  font-size: 13px;
+}
+.xxphone {
+  letter-spacing: -0.15px;
+  margin: 43px 0px auto 87px;
+}
+.des-phone {
+  color: #b4b4b2;
+  font-family: opensans, opensans-bold;
+  font-size: 13px;
+}
+.logo {
+  background-image: url(../image/VINTAGE.png);
+  height: 27px;
+  width: 155px;
+  margin: 50px 372px 49px auto;
+  background-position: center;
+}
+.topbar {
+  height: 19px;
+  width: 146px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 74px;
+  margin-top: -4px;
+}
+.classt {
+  background-image: url(../image/t.png);
+  width: 10px;
+  height: 20px;
+}
+.classplay {
+  background-image: url(../image/play.png);
+  width: 20px;
+  height: 14px;
+}
+.classbird {
+  background-image: url(../image/bird.png);
+  width: 16px;
+  height: 14px;
+}
+.classf {
+  background-image: url(../image/f.png);
+  width: 10px;
+  height: 19px;
+}
+.navbar {
+  margin: 0px auto;
+}
+.box-menu {
+  display: flex;
+  text-transform: uppercase;
+  color: #32302d;
+  font-size: 14px;
+  font-family: raleway-bold;
+  align-items: center;
+  position: relative;
+  line-height: 60px;
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  text-decoration: none;
+  color: #32302d;
+  font-size: 14px;
+  width: 697px;
+  justify-content: space-between;
+  margin: auto;
+  font-family: raleway-bold;
+  padding: 0px;
+  margin: 0px auto 0px;
+}
+.button {
+  height: 40px;
+  width: 145px;
+  background-color: #403f3d;
+  color: white;
+  text-decoration: none;
+  right: 85px;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 14px;
+    font-family: raleway-bold;
+}
+.menu a {
+  text-decoration: none;
+  padding-top: 20px;
+}
+.menu a:hover {
+  border-top: 3px solid #403f3d;
+}
+.new1 {
+  background-image: url(../image/Four-Seasons-Restaurant-New-York.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+ padding: 167px 0px 173px 0px;
+}
+.title1 {
+  font-size: 48px;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+  margin: -3px;
+  font-family: raleway-bold;
+}
+.description {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 54px;
+  margin: 0px;
+  font-family: opensans;
+  letter-spacing: -0.33px;
+    line-height: 24px;
+}
+.button-new {
+  font-size: 14px;
+  color: #403f3d;
+  font-family: raleway-bold;
+  text-transform: uppercase;
+  height: 40px;
+  width: 193px;
+}
+
+.des-menu {
+  margin: 0px auto;
+  padding: 61px 84px 0px 88px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.des-menu1 {
+  width: 370px;
+ 
+}
+.des1 {
+  height:220px;
+  background-image: url(../image/des1.png);
+  margin-bottom: 17px;
+}
+.title-des1 {
+  font-size: 18px;
+  color: #737271;
+  text-transform: uppercase;
+  font-family: raleway-bold, raleway-regular;
+}
+.descrip-des1 {
+  font-size: 14px;
+  color: #737271;
+  font-family: opensans;
+  text-transform: none;
+  margin-top: -6px;
+  /* letter-spacing: -0.0px; */
+  line-height: 22.5px;
+  margin-left: 1px;
+}
+.but-des1 {
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 110px;
+  font-family: raleway-bold;
+  margin: 23px 10px 10px 0px;
+  letter-spacing: 0.1px;
+  padding-left: 8px;
+  padding-top: 4px;
+  height: 27px;
+  width: 110px;
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  text-align: center;
+  
+}
+.but-des1:hover {
+  border: 2px solid rgba(0, 0, 0, 1);
+}
+.chia {
+  height: 144px;
+ 
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+}
+.hr {
+  width: 1345px;
+  margin: 66.5px 0px;
+  position: absolute;
+}
+.logo-chia {
+  height: 25px;
+  position: absolute;
+  margin: 60px auto;
+  background-color: white;
+  left: 629px;
+  top: -6px;
+}
+.new2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 90px 79px 89px;
+  margin: 0px auto;
+  margin-top: -3px
+}
+.des1-new2 {
+  width: 575px;
+  margin: 0px;
+}
+.title-desnew2 {
+  position: relative;
+  height: 59px;
+  margin-bottom: 20px;
+  padding-left: 1px;
+}
+.tit {
+  text-transform: uppercase;
+  color: #403f3d;
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin: 0px;
+  font-family: raleway-bold, raleway-regular;
+  margin-left: -2px;
+}
+.des-tit {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #9a9a90;
+  padding-bottom: 18px;
+  margin: 0px;
+  font-family: opensans;
+  margin-left: -2px;
+  margin-top: 1px;
+}
+
+.pic1-tit {
+  background-image: url(../image/\ copy\ 4.png);
+  background-repeat: no-repeat;
+  background-color: #403f3d;
+  height: 40px;
+  width: 40px;
+  top: 1px;
+  right: 2px;
+  position: absolute;
+  background-position: center;
+  border: 1px solid #b4b4b2;
+  transform: rotate(90deg);
+}
+.pic2-tit {
+  background-color: #403f3d;
+  background-image: url(../image/\ copy\ 4.png);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  top: 1px;
+  right: 54px;
+  position: absolute;
+  background-position: center;
+  border: 1px solid #b4b4b2;
+  transform: rotate(270deg);
+}
+.icon-new2 {
+  width: 591px;
+  height: 288px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+.icon {
+  margin-right: 18px;
+  height: 117px;
+  width: 179px;
+}
+hr {
+  margin: 0px;
+}
+.des2-new2 {
+  height: 347px;
+  width: 270px;
+}
+.detail-des2new2 {
+  font-size: 14px;
+  font-family: opensans;
+  color: #666664;
+  margin: 0px;
+  margin-top: 20px;
+}
+.des3-new2 {
+  height: 347px;
+  width: 270px;
+  padding-left: 5px;
+}
+.menu-des3new2 {
+  height: 288px;
+  width: 270px;
+}
+.menu1-des3 {
+  height: 52px;
+  width: 270px;
+  margin-top: 20px;
+  display: flex;
+}
+.img-menu1 {
+  height: 52px;
+  top: 0px;
+  left: 0px;
+}
+.detail-menu1 {
+  font-size: 14px;
+  color: #403f3d;
+  text-transform: uppercase;
+  top: 0px;
+  font-family: raleway-bold;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.sao {
+  height: 11px;
+  width: 11px;
+  margin-right: 2px;
+}
+.tit-menu1 {
+  height: 52px;
+  margin-left: 13px;
+  padding: 11px auto;
+}
+.sile {
+  width: 1344px;
+  margin: 0px auto;
+  display: flex;
+  position: relative;
+}
+.icon-sile {
+  width: 268.8px;
+  height: 178px;
+}
+.pic1-sile {
+  background-image: url(../image/\ copy\ 4.png);
+  background-repeat: no-repeat;
+  background-color: #403f3d;
+  height: 40px;
+  width: 40px;
+  top: 69px;
+  left: 30px;
+  position: absolute;
+  background-position: center;
+  border: 1px solid #b4b4b2;
+  transform: rotate(270deg);
+}
+.pic2-sile {
+  background-image: url(../image/\ copy\ 4.png);
+  background-repeat: no-repeat;
+  background-color: #403f3d;
+  height: 40px;
+  width: 40px;
+  top: 69px;
+  right: 30px;
+  position: absolute;
+  background-position: center;
+  border: 1px solid #b4b4b2;
+  transform: rotate(90deg);
+}
+.new3 {
+  width: 1344px;
+  margin: 0px auto;
+  padding: 45px 79px 0px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.des1-new3 {
+  width: 575px;
+}
+.icon-des1new3 {
+  width: 273px;
+  padding-top: 16px;
+  float: right;
+  margin-right: 6px;
+    margin-top: 1px;
+}
+.detail-des1new3 {
+  font-size: 14px;
+  color: #666664;
+  margin: 0px;
+  margin-top: 12px;
+  font-family: opensans;
+  line-height: 23px;
+    letter-spacing: 0px;
+    width: 273px;
+}
+.button-new3 {
+  height: 37px;
+  width: 125px;
+  background-color: #403f3d;
+  color: white;
+  text-decoration: none;
+  float: right;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  right: 7px;
+  font-family: raleway-bold;
+  font-size: 14px;
+}
+.title-desnew3 {
+  position: relative;
+  height: 59px;
+}
+.sile2 {
+  width: 1344px;
+  margin: 0px auto;
+  padding: 99px 87px 0px 86px;
+  text-align: center;
+}
+.title-sile2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #403f3d;
+  font-family: raleway-bold, raleway-regular;
+  margin-bottom: 40px;
+
+}
+.icon-sile2 {
+  width: 270px;
+  height: 199px;
+  margin-bottom: 14px;
+
+}
+.detail-sile2 {
+  font-size: 16px;
+  color: #403f3d;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0px;
+  font-family: raleway-bold, raleway-regular;
+}
+.date-sile2 {
+  font-size: 13px;
+  color: #a7a79f;
+  text-align: start;
+  margin-bottom: 0px;
+  font-family: opensans;
+  margin-top: 1px;
+}
+.menu1-sile2 {
+  width: 270px;
+  background-color: white;
+  text-align: left;
+}
+.menu-sile2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.new4 {
+  height: 264px;
+  width: 1344px;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  padding: 63px 89px 0px 86px;
+}
+.title-new4 {
+  font-size: 24px;
+  color: #403f3d;
+  margin: 0px;
+  text-transform: uppercase;
+  font-family: raleway-bold;
+  margin-left: 3px;
+}
+.des-new4 {
+  font-size: 24px;
+  color: #403f3d;
+  margin: 0px;
+  font-family: opensanslight-italic;
+  margin-top: 32px;
+  line-height: 35px;
+}
+.kep1 {
+  bottom: 39px;
+  left: 86px;
+  height: 127px;
+  position: absolute;
+}
+.kep2 {
+  bottom: 39px;
+  right: 87px;
+  height: 127px;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+
+.chia2 {
+  height: 47px;
+  margin: 0px auto;
+  position: relative;
+  text-align: center;
+}
+.chia2-a {
+  height: 25px;
+  position: absolute;
+  top: -12px;
+  left: 629px;
+  background-color: white;
+}
+.hr2 {
+  margin: 44px auto;
+}
+.new5 {
+  width: 1344px;
+  padding: 36px 85px 60px 86px;
+  margin: 0px auto;
+  background-color: #292929;
+  position: relative;
+}
+.title-new5 {
+  font-size: 24px;
+  font-family: raleway-bold, raleway-regular;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+.content-new5 {
+  height: 270px;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.arow1-new5 {
+  width: 20px;
+  left: 30px;
+  top: 202px;
+  transform: rotate(180deg);
+  position: absolute;
+}
+.arow2-new5 {
+  width: 20px;
+  right: 30px;
+  top: 202px;
+  position: absolute;
+}
+.arow2-new1 {
+  width: 20px;
+  left: 30px;
+  bottom: 259px;
+  transform: rotate(180deg);
+  position: absolute;
+}
+.arow1-new1 {
+  width: 20px;
+  right: 30px;
+  bottom: 259px;
+  position: absolute;
+}
+.new6 {
+  height: 390px;
+  width: 1344px;
+  margin: 0px auto;
+  background-image: url(../image/zemljevid.png);
+  position: relative;
+  padding-top: 106px;
+}
+.address {
+  width: 170px;
+  height: 114px;
+  background-color: #32302d;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+  padding-top: 5px;
+}
+.restaurant {
+  font-size: 6px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px 6px;
+}
+.knife {
+  width: 11px;
+  position: absolute;
+  color: white;
+  top: 6px;
+  left: 78px;
+}
+.title-new6 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: -1px;
+  font-family: neutra-text;
+}
+.khung {
+  width: 68px;
+  background-image: url(../image/Shape.png);
+  text-align: center;
+  font-size: 6px;
+  margin: 0px auto;
+  color: white;
+}
+.address-new6 {
+  font-size: 12px;
+  color: white;
+  text-transform: capitalize;
+  margin: 0px;
+  padding: 11px 0px 0px 0px;
+  font-family: opensans;
+}
+.shape {
+  width: 20px;
+  margin: 0px auto;
+}
+.bottom {
+  position: relative;
+  height: 364px;
+  width: 1344px;
+  display: flex;
+  padding: 60px 88px 61px 86px;
+  margin: 0px auto;
+  justify-content: space-between;
+  background-image: url(../image/Four-Seasons-Restaurant-New-York.png);
+}
+.content1-bottom {
+  width: 268px;
+  text-align: center;
+}
+
+.descrip-bottom {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #d5d5d5;
+  font-family: raleway-regular, raleway-bold;
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+.content2-bottom {
+  width: 268px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+}
+.tit-bottom {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-family: raleway-regular, raleway-bold;
+  margin-top: -5px;
+    padding-left: 4px;
+    margin-bottom: 14px;
+}
+.content-content2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: white;
+  width: 134px;
+  font-family: opensans;
+  line-height: 25.5px;
+    margin-top: 6px;
+
+}
+.kkk2 {
+  display: flex;
+  justify-content: space-between;
+}
+.content3-bottom {
+  width: 268px;
+  text-align: center;
+}
+.content2-bottom p {
+  text-transform: capitalize;
+  color: #d5d5d5;
+  margin: 5px 0px;
+}
+.ppp {
+  width: 1345px;
+  background-color: white;
+  box-shadow: 0px 0px 50px #85858c;
+  margin: 0px auto;
+  border: 1px solid #ececec;
+  margin-top: 30px;
+
+}
+.des-bottom {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.indam {
+  color: white;
+  font-family: opensans-bold;
+  font-size: 14px;
+}
+.qp p {
+  font-size: 14px;
+  color: #d5d5d5;
+  text-transform: capitalize;
+  font-family: opensans, opensans-bold;
+  line-height: 6px;
+}
+.butend {
+  height: 44px;
+  width: 44px;
+  background-color: #33322e;
+  padding: 2px;
+  right: 29px;
+  bottom: 27px;
+  position: absolute;
+}
+.butcuoi {
+  background-color: #403f3d;
+  border: 1px solid #999996;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.butcuoi1 {
+  width: 20px;
+  transform: rotate(360deg);
+  bottom: 16px;
+  position: absolute;
+  right: 11px;
+}
+.bottom-bar {
+  height: 45px;
+  width: 1344px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #111111;
+  padding: 0px 90px;
+}
+.coppy {
+  font-size: 13px;
+  color: #85858c;
+  float: left;
+  text-transform: capitalize;
+}
+.nguon {
+  font-size: 13px;
+  color: #85858c;
+  float: right;
+  text-transform: capitalize;
+}
+
+.title-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 13px;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 1px;
+  border-bottom: 1px solid rgba(245, 99, 99, 0.7);
+}
+.title-educate {
+  font-family: Roboto-Regular;
+  font-size: 40px;
+  text-align: center;
+}
+.today {
+  font-size: 18px;
+  font-family: raleway-regular;
+  text-transform: uppercase;
+}
+.des2-new2 > p {
+  line-height: 23px;
+  margin-top: -5px;
+}
+.flex {
+  display: flex;
+  margin-right: 0px;
+  justify-content: flex-start;
+}
+.detail-des2new3 {
+  font-size: 14px;
+  color: #666664;
+  margin: 0px;
+  margin-top: 12px;
+  font-family: opensans;
+  line-height: 23px;
+  letter-spacing: 0px;
+
+}
+.today2{
+  font-size: 24px;
+  font-family: raleway-regular;
+  text-transform: uppercase;
+}
+.des-tit2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #9a9a90;
+  padding-bottom: 18px;
+  margin: 0px;
+  font-family: opensans;
+  margin-left: -2px;
+  margin-top: 4px;
+}
+.today3 {
+  font-size: 16px;
+  font-family: raleway-regular;
+  text-transform: uppercase;
+  margin-left: -2px;
+}
+.chia2 {
+  position: relative;
+  margin-top: 44px;
+}
+.abnew5 {
+  padding-left: 20px;
+}
+.today4 {
+  font-size: 16px;
+  font-family: raleway-regular;
+  text-transform: uppercase;
+  margin-left: -2px;}
+.ancnew5 {
+  font-size: 24px;
+  font-family: raleway-regular;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 472px;
+}
+.img-content1 {
+  margin-bottom: 9px;
+}
+.k1 {
+  margin-top: -5px;
+    margin-bottom: 13px;
+    margin-left: 65px;
+}
+.contentd-content2 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: white;
+  width: 140px;
+  font-family: opensans;
+  line-height: 25.5px;
+    margin-top: 6px;
+    margin-right: -2px;
+    text-align: end;
+}
+.content3-bottom {
+  width: 268px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+
+}
+.qp > p {
+  margin: 0px;
+  margin-top: 17px;
+}
+.l4 {
+  width: 855px;
+  margin: 0px auto;
+}
+.rgba {
+  height:100px;
+  background-color: rgba(0 , 0, 0, 0.5);
+}
+.menu :first-child li {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 17px;
+  list-style: url(../image/Rectangle\ 5\ copy\ 3.png) outside;
+}
+.menu :last-child  li{
+  padding-left: 17px;
+  padding-right: 0px;
+}
+.menu li {
+  padding-left: 17px;
+  padding-right: 18px;
+  list-style: url(../image/Rectangle\ 5\ copy\ 3.png) outside;
+
+}
+.muiten {
+  top: 26px;
+  left: 698px;
+  position: absolute;
+}
+.xxxx {
+  height: 15px;
+  width:210px;
+  position: absolute;
+  top: 79px;
+  left: 586px;
+  display: inline-table;
+
+}
+.xxxx2 {
+  font-size: 13px;
+  font-family: opensans;
+  text-transform: uppercase;
+
+}
+.gachngang {
+  padding-bottom: 3px;
+}
+.dd1 {
+  transform: rotate(180deg);
+}
